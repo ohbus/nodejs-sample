@@ -11,7 +11,8 @@ Desktop.ini
 # Linux
 .directory
 *~
-
+/**/public/
+public
 
 # npm
 node_modules
