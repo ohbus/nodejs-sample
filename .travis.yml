@@ -10,5 +10,5 @@ install:
 
 script:
     - npm test
-    - express -c stylus
+    - express -c stylus -y
     - npm install -d
