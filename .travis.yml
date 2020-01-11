@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+    - 11.6.0
+
+cache: nmp
+
+install:
+    - npm install express -g
+
+script:
+    - npm test
+    - express -c stylus
+    - npm install -d
