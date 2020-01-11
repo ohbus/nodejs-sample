@@ -5,10 +5,13 @@ node_js:
 
 cache: nmp
 
+script:
+    - npm clean
+
 install:
     - npm install express -g
 
 script:
     - npm test
-    - express -c stylus -y
+    - express -c stylus
     - npm install -d
