@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "animejs": "^2.0.2",
-    "express": "^3.5.0",
+    "express": "^4.17.1",
     "knuth-shuffle": "^1.0.1",
     "skrollr": "^0.6.26",
     "skrollr-menu": "^1.0.3",
