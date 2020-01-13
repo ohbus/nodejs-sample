@@ -9,14 +9,8 @@ node_js:
 
 cache: nmp
 
-script:
-    - npm clean
-
 install:
     - npm install
 
 script:
-    - npm test
-    - npm run coverage
     - npm run build
-    - npm run stats
