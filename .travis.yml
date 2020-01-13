@@ -1,17 +1,22 @@
 language: node_js
 
+os:
+    - linux
+    - osx
+
 node_js:
-    - 11.6.0
+    - 12.14.1
 
 cache: nmp
 
-script:
+before_install:
     - npm clean
 
 install:
-    - npm install express -g
+    - npm install
 
-script:
+after_install:
     - npm test
-    - express -c stylus
-    - npm install -d
+    - npm run coverage
+    - npm run build
+    - npm run stats
