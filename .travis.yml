@@ -9,13 +9,13 @@ node_js:
 
 cache: nmp
 
-before_install:
+script:
     - npm clean
 
 install:
     - npm install
 
-after_install:
+script:
     - npm test
     - npm run coverage
     - npm run build
