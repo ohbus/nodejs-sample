@@ -1,17 +1,8 @@
 language: node_js
 
-jobs:
-    include:
-      os:
-        - osx
-      os:
-        - linux 
-          arch: arm64
-          dist: bionic
-      os:
-        - linux 
-          arch: arm64
-          dist: xenial
+os:
+  - linux
+  - osx
 
 node_js:
   - 12.14.1
