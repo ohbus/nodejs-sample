@@ -4,6 +4,8 @@ os:
     - linux
     - osx
     - windows
+    - linux arch: arm64 dist: bionic
+    - linux arch: arm64 dist: bionic
 
 node_js:
   - 12.14.1
