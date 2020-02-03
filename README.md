@@ -1,6 +1,4 @@
 [![Build Status](https://travis-ci.com/ohbus/nodejs-sample.svg?branch=master)](https://travis-ci.com/ohbus/nodejs-sample)
-[![Dependency Status](https://www.versioneye.com/user/projects/59ad2212368b08003311bb22/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59ad2212368b08003311bb22)
-[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 
 [![forthebadge](http://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](http://forthebadge.com)
